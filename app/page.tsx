@@ -243,10 +243,10 @@ const experience = [
   {
     role: "Full Stack Engineer Intern",
     company: "Genpact",
-    period: "March 2026 - Present",
+    period: "March 2026 - June 2026",
     location: "Kosovo",
     copy:
-      "Contributing to production-level applications, API integration, and collaborative development workflows in a professional engineering environment."
+      "Contributed to production-level applications, API integration, and collaborative development workflows in a professional engineering environment."
   },
   {
     role: "Coding Trainer",
@@ -605,7 +605,7 @@ export default function Home() {
             <Code2 size={20} aria-hidden="true" />
             <div>
               <span>Education</span>
-              <h3>Information Technology</h3>
+              <h3>Applied Information Technology</h3>
               <p className="company">IBCM - Public International Business College Mitrovica</p>
               <p>Front-End Developer, Programming · Beetroot Academy</p>
             </div>
