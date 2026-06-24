@@ -1,0 +1,11 @@
+.next/
+node_modules/
+out/
+dist/
+coverage/
+.env*
+!.env.example
+tmp/
+*.log
+vercel/
+.vercel/
