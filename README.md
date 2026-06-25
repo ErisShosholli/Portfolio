@@ -1,6 +1,6 @@
 # Eris Shosholli Portfolio
 
-Clean portfolio site focused on backend and DevOps engineering work.
+Clean portfolio site for a DevOps Engineer and Full-Stack Developer.
 
 ## Tech
 

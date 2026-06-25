@@ -96,7 +96,7 @@ const projects = [
   }
 ];
 
-const heroChips = ["FastAPI APIs", "PostgreSQL data", "Docker environments", "pytest evidence"];
+const heroChips = ["DevOps workflows", "Full-stack delivery", "FastAPI APIs", "PostgreSQL data"];
 
 const techRail = [
   { name: "Python", icon: SiPython, color: "#3776ab" },
@@ -349,11 +349,11 @@ export default function Home() {
 
         <div className="heroContent">
           <div className="heroCopy">
-            <p className="statusPill">Open to Backend / DevOps roles</p>
+            <p className="statusPill">DevOps Engineer | Full-Stack Developer</p>
             <h1>Eris Shosholli</h1>
             <p className="lead">
-              I build API-first systems, database-backed services, and practical delivery workflows with
-              Python, FastAPI, PostgreSQL, Docker, Linux, and Git.
+              I build full-stack products with a DevOps mindset: API-first backends,
+              database-backed services, Docker workflows, and tested delivery systems.
             </p>
             <div className="heroChips" aria-label="Core focus areas">
               {heroChips.map((chip) => (
@@ -555,10 +555,10 @@ export default function Home() {
           <p className="sectionMeta">
             <span>04</span> Stack
           </p>
-          <h2 id="skills-heading">Backend-first, with full-stack range</h2>
+          <h2 id="skills-heading">DevOps-minded, with full-stack range</h2>
           <p>
-            Your portfolio should make the new direction obvious while still using the credibility from
-            frontend and teaching experience.
+            The stack supports the resume headline: backend APIs, delivery workflows, and enough
+            frontend range to ship complete products.
           </p>
         </div>
         <div className="skillGrid">
@@ -582,8 +582,8 @@ export default function Home() {
           </p>
           <h2 id="experience-heading">Professional foundation</h2>
           <p>
-            Current engineering internship, trainer background, and formal IT education all support the
-            backend/DevOps path.
+            Engineering internship experience, trainer background, and applied IT education all support
+            the DevOps and full-stack path.
           </p>
         </div>
         <div className="timeline">
@@ -631,10 +631,10 @@ export default function Home() {
           <p className="sectionMeta">
             <span>07</span> Contact
           </p>
-          <h2 id="contact-heading">Backend and DevOps are the direction.</h2>
+          <h2 id="contact-heading">DevOps engineer with full-stack range.</h2>
           <p>
-            I am building toward roles where clean APIs, database design, Dockerized environments, Linux
-            workflows, and tested delivery matter.
+            I am building toward roles where clean APIs, Dockerized environments, Linux workflows,
+            frontend awareness, and tested delivery matter.
           </p>
         </div>
         <div className="contactActions">
