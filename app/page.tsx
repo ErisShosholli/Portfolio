@@ -260,11 +260,14 @@ const experience = [
 ];
 
 const certifications = [
-  "The Complete Python Bootcamp",
-  "FastAPI The Complete Course 2026",
-  "Typescript: The Complete Developer's Guide",
-  "The Git & Github Bootcamp",
-  "The Complete SQL Bootcamp"
+  "Claude Code Certification",
+  "Practical Linux Command Line 2.0",
+  "Agile Fundamentals",
+  "FastAPI Complete Course 2026",
+  "TypeScript Developer's Guide",
+  "SQL Bootcamp",
+  "Python Bootcamp",
+  "Git & GitHub Bootcamp"
 ];
 
 export default function Home() {
@@ -618,6 +621,7 @@ export default function Home() {
             <span>06</span> Learning
           </p>
           <h2 id="cert-heading">Certifications and course work</h2>
+          <p>All listed certifications are from Udemy.</p>
         </div>
         <div className="certList">
           {certifications.map((item) => (
