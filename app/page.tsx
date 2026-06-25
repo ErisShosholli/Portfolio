@@ -8,6 +8,7 @@ import {
   BriefcaseBusiness,
   Code2,
   Database,
+  FileDown,
   Github,
   Linkedin,
   Mail,
@@ -359,30 +360,28 @@ export default function Home() {
                 <span key={chip}>{chip}</span>
               ))}
             </div>
-            <div className="heroActions" aria-label="Contact and profile links">
-              <a className="primaryButton" href="mailto:shoshollieris@gmail.com">
-                <Mail size={18} aria-hidden="true" />
-                Email me
+            <div className="heroActions" aria-label="Resume and profile links">
+              <a className="primaryButton" href="/Eris-Shosholli-Resume.pdf" download>
+                <FileDown size={18} aria-hidden="true" />
+                Download Resume
               </a>
               <a
-                className="iconButton"
+                className="secondaryButton"
                 href="https://github.com/ErisShosholli"
-                aria-label="GitHub profile"
                 target="_blank"
                 rel="noreferrer"
-                title="GitHub"
               >
-                <Github size={20} aria-hidden="true" />
+                <Github size={18} aria-hidden="true" />
+                GitHub
               </a>
               <a
-                className="iconButton"
+                className="secondaryButton"
                 href="https://www.linkedin.com/in/erisshosholli"
-                aria-label="LinkedIn profile"
                 target="_blank"
                 rel="noreferrer"
-                title="LinkedIn"
               >
-                <Linkedin size={20} aria-hidden="true" />
+                <Linkedin size={18} aria-hidden="true" />
+                LinkedIn
               </a>
             </div>
           </div>
