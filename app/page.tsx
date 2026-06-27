@@ -20,10 +20,13 @@ import {
   SiDocker,
   SiFastapi,
   SiFlask,
+  SiFramer,
   SiGit,
   SiGithub,
+  SiGreensock,
   SiJavascript,
   SiLinux,
+  SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
   SiPostman,
@@ -33,11 +36,26 @@ import {
   SiSqlalchemy,
   SiSqlite,
   SiPydantic,
+  SiTailwindcss,
   SiTypescript,
   SiVercel
 } from "react-icons/si";
 
 const projects = [
+  {
+    name: "EURO AL-SHPK Website",
+    type: "Full-stack / Corporate website / SEO",
+    href: "https://github.com/ErisShosholli/EURO-AL-SHPK",
+    summary:
+      "Premium corporate website for an aluminum systems company, built as a high-end brand experience with product, project, service, FAQ, and contact flows.",
+    impact: [
+      "Next.js 15 App Router project with TypeScript, Tailwind CSS, Framer Motion, GSAP, and reusable section components.",
+      "Includes product cards, animated statistics, project masonry gallery with filters and lightbox, testimonials, FAQ accordion, and Google Maps contact embed.",
+      "Built with SEO metadata, OpenGraph data, JSON-LD structured data, responsive layouts, and polished motion for desktop, tablet, and mobile."
+    ],
+    signals: ["Next.js 15", "SEO + JSON-LD", "Motion UI"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP", "React"]
+  },
   {
     name: "FieldRoute",
     type: "Backend / DevOps / Full-stack",
@@ -189,8 +207,12 @@ const stackIcons: Record<string, { icon: IconType; color: string }> = {
   Flask: { icon: SiFlask, color: "#f4f7f5" },
   PostgreSQL: { icon: SiPostgresql, color: "#4169e1" },
   Docker: { icon: SiDocker, color: "#2496ed" },
+  "Next.js": { icon: SiNextdotjs, color: "#ffffff" },
   React: { icon: SiReact, color: "#61dafb" },
   TypeScript: { icon: SiTypescript, color: "#3178c6" },
+  "Tailwind CSS": { icon: SiTailwindcss, color: "#06b6d4" },
+  "Framer Motion": { icon: SiFramer, color: "#ffffff" },
+  GSAP: { icon: SiGreensock, color: "#88ce02" },
   SQLAlchemy: { icon: SiSqlalchemy, color: "#d71f00" },
   SQLite: { icon: SiSqlite, color: "#003b57" },
   Pydantic: { icon: SiPydantic, color: "#e92063" },
@@ -431,7 +453,7 @@ export default function Home() {
 
       <section className="metricBand" aria-label="Portfolio highlights">
         <div>
-          <strong>4</strong>
+          <strong>5</strong>
           <span>featured repositories</span>
         </div>
         <div>
